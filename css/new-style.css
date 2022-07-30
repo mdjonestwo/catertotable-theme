@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #292F39;
+    color: #DAE4EB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+}
+
+.wrapper{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a{
+   display: block;
+   text-decoration: none;
+   border: #6D77FE solid 1px;
+   border-radius: .5rem;
+   margin: 20px 0;
+   padding: 15px 95px;
+   color: #dae4eb;
+}
+
+a.date{
+    display: block;
+    text-decoration: none;
+    border: #6D77FE solid 1px;
+    border-radius: .5rem;
+    margin: 20px 0;
+    padding: 15px 95px;
+    color: #dae4eb;
+    text-align: center;
+ }
+ 
+
+
+a.entrees {
+    display: block;
+    text-decoration: none;
+    border: #6D77FE solid 1px;
+    border-radius: .5rem;
+    margin: 20px 0;
+    padding: 15px 95px;
+    color: #dae4eb
+ }
+ 
+ @media (min-width: 1px)  and (max-width: 575px) {
+
+    h1{
+        font-size: 65px;
+    }
+
+    .wrapper{ 
+        padding: 25px 15px 0 15px;
+    }
+
+    a {
+        padding: 15px 25px;
+    }
+
+    a.date{
+        padding: 10px 45px;
+        font-size: 14px;
+    }
+
+  }
+
+ @media (min-width: 575px) and (max-width: 768px) { }
